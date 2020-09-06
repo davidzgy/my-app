@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import Welcome from './first-component';
+import Menu from './header/menu';
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
           fdfdf
         </p>
         <Welcome name="Zhou"/>
+        <Menu menu="mymenu"/>
         <a
           className="App-link"
           href="https://reactjs.org"
